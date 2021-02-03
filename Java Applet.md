@@ -1,12 +1,12 @@
 <!--
  * @Author: Yimning
  * @Date: 2021-01-15 12:24:52
- * @LastEditTime: 2021-02-03 14:03:13
+ * @LastEditTime: 2021-02-03 14:07:04
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit  
  * @FilePath: \undefinedc:\Users\Yimning\Desktop\JAVA\Java Applet.md
 -->
-<<<<<<< HEAD
+
 # Applet
 
 ## 1、Applet简介
@@ -21,5 +21,3 @@
 					L java. awt. Panel
 						L java. applet. Applet
 							L javax. swing. JApplet （swing是轻量级的图形用户组件）
-=======
->>>>>>> ba0fbbec29250cd94dda16a5b17bb832be7da56d
