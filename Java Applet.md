@@ -20,4 +20,4 @@
 				L java. awt. Container
 					L java. awt. Panel
 						L java. applet. Applet
-							L javax. swing. JApplet （swing是轻量级的图形用户组件）
+							L javax. swing. JApplet （swing是轻量级的图形用户组件） 
