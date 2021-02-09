@@ -1,13 +1,13 @@
 <!--
  * @Author: Yimning
  * @Date: 2021-01-15 12:24:52
- * @LastEditTime: 2021-02-09 13:23:28
+ * @LastEditTime: 2021-02-09 13:24:39
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit  
  * @FilePath: \undefinedc:\Users\Yimning\Desktop\JAVA\Java Applet.md
 -->
 
-# Applet
+# Applet  
 
 ## 1、Applet简介
 
