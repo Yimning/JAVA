@@ -1,7 +1,7 @@
 <!--
  * @Author: Yimning
  * @Date: 2021-01-15 12:24:52
- * @LastEditTime: 2021-02-09 12:58:06
+ * @LastEditTime: 2021-02-09 13:23:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit  
  * @FilePath: \undefinedc:\Users\Yimning\Desktop\JAVA\Java Applet.md
@@ -27,5 +27,5 @@
 ​	●Applet程序需要嵌入到网页中运行。网页是由一种称作HTML (HyperText Markup Language)的语言编写的。.
 
 ​	●Applet程序除了可以在浏览器中运行以外，也可通过Java开发工具包(Java Development Kit)所自带的appletviewer程序来运行。
-
+  
 ●在Eclipse开发工具中，提供了能够直接创建和运行Applet程序的功能。
