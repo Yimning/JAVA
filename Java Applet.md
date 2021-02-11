@@ -1,7 +1,7 @@
 <!--
  * @Author: Yimning
  * @Date: 2021-01-15 12:24:52
- * @LastEditTime: 2021-02-09 13:24:39
+ * @LastEditTime: 2021-02-11 13:15:27
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit  
  * @FilePath: \undefinedc:\Users\Yimning\Desktop\JAVA\Java Applet.md
@@ -43,5 +43,19 @@
     </B0DY>
     </HTML>
 ``` 
-
 ●HTML与Applet 	
+
+​	●<applet>标记用于在网页中钳入applet程序如:
+
+```
+<applet code="HelloJavaApplet" width=200 height=50> </applet>
+```
+
+​	●将在网页中类名为HelloJavaApplet的applet<applet>标记中可包含子标记<param>，用于向applet程序
+提供参数，如:< param name="param- -name" value=" param-value" >在applet程序中可通过调用方法: getParameter (String paramName)，获得参数值。
+
+​	在appletvi ewer中运行Applet程序appletviewer: JDK自 带的调试工具
+​	命令格式: appletviewer <HTM文件>
+​	使用appletviewer的快捷方式，需要在Applet源程序顶部以注释方式加入<applet>标记
+
+​	●网页浏览器对运行Applet程序都从安全角度设置了一些限制。不同的网页浏览器对applet运行所设置的限制略有所不同。但基本上来说都会禁止未经认可的代码访问本地文件系统，以及禁止未经认可的代码进行某些网络操作。这些都是非常必要的。否则，黑客就可以很容易地通过一个Applet程序，读取客户存放在本地计算机.上的机密资料，并通过网络传送到其他计算机。
