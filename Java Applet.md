@@ -1,7 +1,7 @@
 <!--
  * @Author: Yimning
  * @Date: 2021-01-15 12:24:52
- * @LastEditTime: 2021-02-14 20:53:08
+ * @LastEditTime: 2021-02-15 14:00:02
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit  
  * @FilePath: \undefinedc:\Users\Yimning\Desktop\JAVA\Java Applet.md
@@ -62,3 +62,14 @@
 ## 3、Applet的生命周期
 
 ![1609571635693](C:\Users\Yimning\AppData\Roaming\Typora\typora-user-images\1609571635693.png)
+
+## 4、 Applet的其他功能
+
+​	●Applet本身是-一个AWT组件，因此它也具有一般AWT组件的图形绘制功能。Applet程序中所采用的AWT绘图机制主要涉及三个方法: paint()、update0和repaint0方法。update(方法和paint()方法都有一个Graphics类的参数。Graphics类 是画图的关键，它可以支持两种绘图方式:一 种是基本的绘图，如:画线、矩形、圆等;另一种是画图像，主要用于动画制作。
+
+​	●在Applet中播放声音可以通过java.applet.AudioClip接 口来实现。在AudioClip接口中声明“了如下三个方法用于播放声音:
+​		●void play(:用于播放声音。
+​		●void loop0:循环播放声音。
+​		●void stopO:停止播放声音。
+
+​	●有时JavaApplet中需要显示--些图像(如GIF文件)。显示图像需要先定义一个Image类的对象，然后使用Applet类的getImage(方法把图像文件和Image对象关联起来。Graphics类 的drawImage(方法用来显示Image对象。为了提高显示质量，一般Applet中都首先把图像装入内存，然后再显示在屏幕上。
