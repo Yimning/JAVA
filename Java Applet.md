@@ -11,7 +11,7 @@
 
 ## 1、Applet简介
 
-​	●Java程序可分为Application和Applet两种类型。Application程序就是前面各章中我们看到的带有main0方法的程序，又称之为Java应用程序。Applet程序又称之为小应用程序，是指能够在其他应用程序(通常是网页浏览器)中执行的Java程序，并不是指Applet程序就非得是代码量小的一个小程序。
+​	●Java程序可分为Application和Applet两种类型。Application程序就是前面各章中我们看到的带有main0方法的程序，又称之为Java应用程序。Applet程序又称之为小应用程序，是指能够在其他应用程序(通常是网页浏览器)中执行的Java程序，并不是指Applet程序就非得是代码量小的一个小程序。  
 
   ●要编写Applet程序，需要继承java.applet.Applet类或javax.swing.JApplet类。 
   
